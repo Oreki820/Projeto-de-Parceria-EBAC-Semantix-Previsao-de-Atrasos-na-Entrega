@@ -88,39 +88,6 @@ O projeto segue o padrão **Lakehouse (Bronze → Silver → Gold)**, com tratam
 
 ---
 
-## 🔍 Explicabilidade (SHAP)
-
-O método **SHAP (Shapley Additive Explanations)** foi aplicado para entender *por que* o modelo classifica um pedido como atrasado.
-
-### 🎯 Principais variáveis por impacto SHAP:
-| Rank | Variável | Significado |
-|:--|:--|:--|
-| 1️⃣ | `delivered_days` | Tempo real de entrega |
-| 2️⃣ | `promised_days` | Prazo prometido ao cliente |
-| 3️⃣ | `freight` | Valor do frete (proxy para distância) |
-| 4️⃣ | `total_price` | Valor total do pedido |
-| 5️⃣ | `n_items` | Quantidade de itens |
-| 6️⃣ | `installments` | Número de parcelas do pagamento |
-| 7️⃣ | `is_credit_card` | Tipo de pagamento |
-| 8️⃣ | `customer_state_RS` | Região do cliente |
-| 9️⃣ | `main_category_telephony` | Categoria do produto |
-| 🔟 | `pay_value` | Valor efetivo pago |
-
-🧠 **Interpretação executiva:**
-- Pedidos com **prazo prometido longo** e **frete alto** têm **maior probabilidade de atraso**.  
-- **Pagamentos no cartão** são liberados mais rápido → **menor risco de atraso**.  
-- **Regiões distantes (como RS e BA)** concentram atrasos por logística.  
-
----
-
-## 📈 Visualizações
-
-![Matriz de Confusão — XGBoost](https://github.com/seu-repo/images/matriz_confusao.png)  
-![Importância SHAP](https://github.com/seu-repo/images/shap_importance.png)  
-![Dependência — Prazo Prometido](https://github.com/seu-repo/images/shap_dependence.png)
-
----
-
 ## 🚀 Conclusões
 
 ✔️ O modelo XGBoost atingiu **nível de desempenho industrial**, com precisão de 99,6% (AUC).  
