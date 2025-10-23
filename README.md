@@ -97,46 +97,11 @@ O projeto segue o padrão **Lakehouse (Bronze → Silver → Gold)**, com tratam
 
 ---
 
-## ⚙️ Reprodutibilidade
+## 📊 Dashboard Interativo
 
-### 🔧 Execução (Colab ou local)
-```bash
-# Clonar repositório
-git clone https://github.com/Oreki820/Projeto-Olist-Semantix.git
-cd Projeto-Olist-Semantix
+Acesse o dashboard interativo abaixo:
 
-# Instalar dependências
-pip install -r requirements.txt
+<iframe width="100%" height="600" src="https://lookerstudio.google.com/reporting/ef01fad6-5056-457a-b2cb-561cc0af28e2/page/BuhcF" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-# Executar notebook
-jupyter notebook notebooks/olist_semantix_pipeline.ipynb
-```
-
-🧰 Principais pacotes
-
-```
-pandas numpy matplotlib seaborn scikit-learn xgboost shap great_expectations plotly
-```
-
-🧱 Estrutura de Pastas
-
-```
-📦 Projeto-Olist-Semantix
- ┣ 📂 data
- ┃ ┣ 📂 raw
- ┃ ┣ 📂 silver
- ┃ ┗ 📂 gold
- ┣ 📂 notebooks
- ┃ ┗ olist_semantix_pipeline.ipynb
- ┣ 📂 images
- ┃ ┣ matriz_confusao.png
- ┃ ┣ shap_importance.png
- ┃ ┗ shap_dependence.png
- ┣ 📜 requirements.txt
- ┗ 📘 README.md
-```
-
-
-
-
-
+> **Observação:** Caso o iframe não apareça corretamente, você pode clicar no link abaixo para abrir diretamente no Looker Studio:  
+> [Visualizar Dashboard](https://lookerstudio.google.com/reporting/ef01fad6-5056-457a-b2cb-561cc0af28e2/page/BuhcF)
