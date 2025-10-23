@@ -131,8 +131,6 @@ As visualizações foram desenvolvidas tanto em **Plotly** (notebook) quanto em 
 
 Explore o painel com indicadores e filtros dinâmicos:
 
-<iframe width="100%" height="600" src="https://lookerstudio.google.com/reporting/ef01fad6-5056-457a-b2cb-561cc0af28e2/page/BuhcF" frameborder="0" style="border:0" allowfullscreen></iframe>
-
 🔗 **Acesso direto:**  
 [📊 Visualizar Dashboard](https://lookerstudio.google.com/reporting/ef01fad6-5056-457a-b2cb-561cc0af28e2/page/BuhcF)
 
