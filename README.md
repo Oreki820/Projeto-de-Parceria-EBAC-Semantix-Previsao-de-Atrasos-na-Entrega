@@ -100,8 +100,5 @@ O projeto segue o padrão **Lakehouse (Bronze → Silver → Gold)**, com tratam
 ## 📊 Dashboard Interativo
 
 Acesse o dashboard interativo abaixo:
-
-<iframe width="100%" height="600" src="https://lookerstudio.google.com/reporting/ef01fad6-5056-457a-b2cb-561cc0af28e2/page/BuhcF" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-> **Observação:** Caso o iframe não apareça corretamente, você pode clicar no link abaixo para abrir diretamente no Looker Studio:  
+ 
 > [Visualizar Dashboard](https://lookerstudio.google.com/reporting/ef01fad6-5056-457a-b2cb-561cc0af28e2/page/BuhcF)
