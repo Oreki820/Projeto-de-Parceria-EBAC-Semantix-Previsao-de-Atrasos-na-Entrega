@@ -192,9 +192,8 @@ e à comunidade de cientistas de dados que compartilha conhecimento diariamente.
 ### 🧩 Contatos
 
 - 📧 **E-mail:** lucasgabrielferreiragomes10@gmail.com  
-- 💼 **LinkedIn:** [www.linkedin.com/in/lucas-gabriel-dados](https:www.linkedin.com/in/lucas-gabriel-dados)  
-- 💻 **GitHub:** [github.com/Oreki820](https://github.com/Oreki820)
-
+- 💼 **LinkedIn:** (https:www.linkedin.com/in/lucas-gabriel-dados)  
+- 💻 **GitHub:** (https://github.com/Oreki820)
 ---
 
 
