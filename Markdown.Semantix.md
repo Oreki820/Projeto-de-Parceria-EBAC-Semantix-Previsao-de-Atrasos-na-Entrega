@@ -30,7 +30,7 @@ O projeto utiliza a base pública **Olist Brazilian E-Commerce** (Kaggle), conte
 ## 📥 2. Coleta e Origem dos Dados
 
 - **Fonte:** [Olist Brazilian E-Commerce (Kaggle)](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-- **Tipo:** Dados públicos e não confidenciais  
+- **Tipo:** Dados públicos  
 - **Arquivos utilizados:**
   - `olist_orders_dataset.csv`
   - `olist_order_items_dataset.csv`
@@ -42,8 +42,11 @@ O projeto utiliza a base pública **Olist Brazilian E-Commerce** (Kaggle), conte
 Os dados foram organizados segundo o modelo de arquitetura em camadas:
 
 data/
+
 ├── raw/ → dados brutos
+
 ├── silver/ → dados tratados e validados
+
 └── gold/ → features finais para modelagem
 
 
